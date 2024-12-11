@@ -4,3 +4,4 @@ NVIDIA orin nx 环境部署踩坑记录，目前工控机架构为arm64，jetpac
 由于工控机为arm64架构的，所以对与torchvision包不能够使用pip命令安装，否则会一直出现版本问题的提示，导致后面没法使用gpu，我这边对应的安装版本是vision-0.15.1，注意这个需要源码安装，安装完成后可以使用
 python check_gpu.py
 命令进行检查是否能够驱动cpu
+torch-2.0.0+nv23.05-cp38-cp38-linux_aarch64.whl和vision-0.15.1包可以自行下载，这边把测试代码放上来了
