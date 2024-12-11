@@ -5,3 +5,4 @@ NVIDIA orin nx 环境部署踩坑记录，目前工控机架构为arm64，jetpac
 python check_gpu.py
 命令进行检查是否能够驱动cpu
 torch-2.0.0+nv23.05-cp38-cp38-linux_aarch64.whl和vision-0.15.1包可以自行下载，这边把测试代码放上来了
+具体的有啥问题可以直接联系我：1046267052@qq.com
